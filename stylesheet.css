@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Helvetica;
+    border-bottom: 1vh solid white;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+}
+
+#logotipo {
+    display: flex;
+    height: 40%;
+    width: 40%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    background-color: rgb(179, 176, 176);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 40vh 1fr 5vh;
+    background: white;
+    padding: 5px;
+}
+
+.titulo-main {
+    color: black;
+    text-shadow: white;
+    font-size: 3vh;
+    margin-top: 4vh;
+    font-family: Helvetica;
+}
+
+.busca {
+    color:black;
+    margin: 3vh 0;
+    display: flex;
+    justify-content:center;
+}
+
+#input-busca {
+    font-size: 2vh;
+    font-family: Helvetica;
+}
+
+#pais, #busca {
+    padding: 1vh 1vw;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    text-align: center;
+}
+
+#busca {
+    font-size: 1vh;
+}
+
+#busca:hover {
+    cursor: pointer;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.copa-mundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    gap: 1rem;
+    padding: 5vh;
+    /* border-bottom: 1vh solid black; */
+}
+
+.my-albuns {
+    border-radius: 1rem;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+
+li {
+    display: flex;
+    margin: auto 0;
+    font-size: 2.5vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 16vh;
+    padding-top: 2vh;
+    font-family: Helvetica;
+    font-size: 2vh;
+    border-top: 1vh solid white;
+}
+
+p {
+    margin-bottom: 1vh;
+}
+
+p a {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+#componentes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
